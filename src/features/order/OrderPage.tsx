@@ -67,7 +67,7 @@ const handleSubmit = async () => {
       items: cartItems,
     });
 
-    alert('ההזמנה נשלחה בהצלחה 🎉');
+    alert('ההזמנה נשלחה בהצלחה');
     setForm({ fullName: '', address: '', email: '' });
     dispatch(clearCart());
     navigate('/');

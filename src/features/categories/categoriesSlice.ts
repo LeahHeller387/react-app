@@ -1,5 +1,3 @@
-// src/features/categories/categoriesSlice.ts
-
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { Category, CategoriesState } from "./types";
